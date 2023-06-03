@@ -1,0 +1,47 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "yearData": [
+        {
+          "year": 1990,
+          "isChecked": true
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "yearData": [
+        {
+          "year": 2000,
+          "isChecked": true
+        },
+        {
+          "year": 2001,
+          "isChecked": true
+        },
+        {
+          "year": 2002,
+          "isChecked": true
+        },
+        {
+          "year": 2003,
+          "isChecked": true
+        },
+        {
+          "year": 2004,
+          "isChecked": true
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "yearData": [
+        {
+          "year": 1855,
+          "isChecked": true
+        }
+      ]
+    }
+  ]
+}

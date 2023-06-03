@@ -1,38 +1,107 @@
-.App {
-  text-align: center;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.First-col {
+    top: 0;
+    left: 42.2%;
+    background-color: #c22020;
+    height: 455px;
+    width: 3px;
+    display: none;
+    box-shadow: 0px 0px 10px 3px #c2202089 ;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.sec-col {
+    top: 0;
+    left: 50%;
+    background-color: #c22020;
+    height: 455px;
+    width: 3px;
+    display: none;
+    box-shadow: 0px 0px 10px 3px #c2202089 ;
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.third-col {
+    top: 0;
+    left: 58.3%;
+    background-color: #c22020;
+    height: 455px;
+    width: 3px;
+    display: none;
+    box-shadow: 0px 0px 10px 3px #c2202089 ;
+
 }
 
-.App-link {
-  color: #61dafb;
+.first-row {
+    top: 68px;
+    left: 37.5%;
+    background-color: #c22020;
+    height: 2px;
+    width: 473px;
+    display: none;
+    box-shadow: 0px 0px 10px 3px #c2202089 ;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.sec-row {
+    top: 232px;
+    left: 37.6%;
+    background-color: #c22020;
+    height: 2px;
+    width: 474px;
+    display: none;
+    box-shadow: 0px 0px 10px 3px #c2202089 ;
+
+}
+
+.third-row {
+    top: 380px;
+    left: 37.5%;
+    background-color: #c22020;
+    height: 2px;
+    width: 473px;
+    display: none;
+    box-shadow: 0px 0px 10px 3px #c2202089 ;
+}
+
+.cross1 {
+    top: 226px;
+    left: 33%;
+    background-color: #20c22b;
+    height: 2px;
+    width: 646px;
+    transform: rotate(43deg);
+    display: none;
+    box-shadow: 0px 0px 10px 3px #20c22b8e ;
+}
+
+.cross2 {
+    top: 226px;
+    left: 33%;
+    background-color: #20c22b;
+    height: 2px;
+    width: 646px;
+    transform: rotate(136deg);
+    display: none;
+    box-shadow: 0px 0px 10px 3px #20c22b8e ;
+}
+
+.spn {
+    visibility: hidden;
+}
+
+.h {
+    text-shadow: 2px 2px #ff0000;
+}
+
+.win {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #20c22b;
+    background-color: #fff;
 }
